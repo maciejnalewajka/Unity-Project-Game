@@ -1,7 +1,15 @@
 # Unity-Project-Game
 
-<object data="https://github.com/maciejnalewajka/Unity-Project-Game/blob/master/Dokumentacja%20NinjaCoin.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/maciejnalewajka/Unity-Project-Game/blob/master/Dokumentacja%20NinjaCoin.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/maciejnalewajka/Unity-Project-Game/blob/master/Dokumentacja%20NinjaCoin.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<p><a href="https://github.com/maciejnalewajka/Unity-Project-Game/blob/master/Dokumentacja%20NinjaCoin.pdf">Documentation PDF</a></p>
+
+![Alt text](https://github.com/maciejnalewajka/Unity-Project-Game/img/img1.jpg)
+</br>
+![Alt text](https://github.com/maciejnalewajka/Unity-Project-Game/img/img2.jpg)
+</br>
+![Alt text](https://github.com/maciejnalewajka/Unity-Project-Game/img/img3.jpg)
+</br>
+![Alt text](https://github.com/maciejnalewajka/Unity-Project-Game/img/img4.jpg)
+</br>
+![Alt text](https://github.com/maciejnalewajka/Unity-Project-Game/img/img5.jpg)
+</br>
+![Alt text](https://github.com/maciejnalewajka/Unity-Project-Game/img/img6.jpg)
