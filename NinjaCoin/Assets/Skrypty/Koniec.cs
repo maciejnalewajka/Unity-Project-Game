@@ -13,6 +13,6 @@ public class Koniec : MonoBehaviour {
 
     public void OdNowa()
     {
-        Application.LoadLevel("Ziemia");
+        Application.LoadLevel("SceneWinter");
     }
 }

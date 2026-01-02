@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*-----------------------------------------------------------------------------------------------------------------------------------------------------
+    Author: Maciej Nalewajka
+    Edit Date: 02/01/2026.
+    Version: 1.1
+    Copyright © 2026 Maciej Nalewajka. All rights reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -60,6 +67,11 @@ public class KontrolerPlayer : MonoBehaviour
                 czyEsc = false;
             }
         }
+        ESC.onClick.AddListener(() => {
+            ESC.gameObject.SetActive(false);
+            czyEsc = false;
+            Application.LoadLevel("SceneMenu");
+        });
        
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("Dziab"))
         {
@@ -73,7 +85,7 @@ public class KontrolerPlayer : MonoBehaviour
         // Zczytanie pozycji x
         ruchLP = Input.GetAxis("Horizontal");
         rgBody.velocity = new Vector2(ruchLP * playerPredkosc, rgBody.velocity.y);          // Przypisanie nowego x i y
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && naZiemi) // Jeżeli nacisne klawisz do obiektu zostanie przypisana siła
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetMouseButtonDown(0)) && naZiemi) // Jeżeli nacisne klawisz do obiektu zostanie przypisana siła
         {
             rgBody.AddForce(new Vector2(0f, playerSkok));
             AudioSource.PlayClipAtPoint(clipJump, transform.position);
@@ -108,7 +120,7 @@ public class KontrolerPlayer : MonoBehaviour
             zycia = zycia - 1;
             if (zycia == 0)
             {
-                Application.LoadLevel("Koniec");
+                Application.LoadLevel("SceneTheEnd");
             }
             zyciaText.text = zycia.ToString();
         }  // Dotknięcie grzyba

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Chmury.unity
+- path: Assets/SceneWinter.unity
   isLoaded: 1
   isActive: 1

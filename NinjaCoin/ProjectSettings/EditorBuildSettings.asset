@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
-    guid: 3a3b8982eb445d34f923e19c75a364cf
+    path: Assets/SceneMenu.unity
+    guid: a3db25e4a23c49b44a9a6c63c35488c7
   - enabled: 1
-    path: Assets/Ziemia.unity
-    guid: bbef2b62020f5504a9147c02b9d5f93f
+    path: Assets/SceneWinter.unity
+    guid: 0850d93c6c9a1d94d9a7f3b2f74e0072
   - enabled: 1
-    path: Assets/Grzybnia.unity
-    guid: 8399231bce5e3204f81745c0bc74a07c
+    path: Assets/SceneJungle.unity
+    guid: e5f4866cf845866469979fac4735792f
   - enabled: 1
-    path: Assets/Chmury.unity
-    guid: 39a52015ab786a343a0e87c4162a3d22
+    path: Assets/SceneClouds.unity
+    guid: 653840bbda6f3ee46873f1eaa3cb7ef6
   - enabled: 1
-    path: Assets/Koniec.unity
-    guid: 9682d893b25932b4daae89eb07299df4
+    path: Assets/SceneTheEnd.unity
+    guid: bc36db80bf63a1347952700677b1af72
