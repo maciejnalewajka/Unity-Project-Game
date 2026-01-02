@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fbe189074474ede4d9de61b146ca770e
+timeCreated: 1522154457
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - clip: {fileID: 8300000, guid: 8e8218f6a01e74bd5894788e3f912635, type: 3}
+  - prefabKrew: {fileID: 1655429352727768, guid: 9c4d6fe94b61cc246899750a11ec40d5,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
